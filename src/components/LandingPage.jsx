@@ -10,7 +10,7 @@ const LandingPage = () => {
   };
   return (
     <>
-      <div className="w-full relative pb-20">
+      <div className="w-full relative h-[100vh]">
         {/* mission and black banner area */}
         <div className="h-[35vh] p-[3rem] sm:p-[5rem] bg-black opacity-85 text-white px-10 ">
           <div className="max-w-6xl mx-auto">
@@ -24,7 +24,7 @@ const LandingPage = () => {
           </div>
         </div>
         {/* form and map location is render from this area */}
-        <div className="absolute top-[13rem] max-w-7xl mx-auto left-0 right-0 bg-white rounded-lg ">
+        <div className="absolute top-[13rem] max-w-7xl mx-auto left-0 right-0 bg-white rounded-lg pb-[5rem]">
           <div className="flex flex-col sm:flex-row justify-between items-center shadow-2xl rounded-lg py-2">
             <Reservation />
             <Map location={location} zoomLevel={17} />
