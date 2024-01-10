@@ -10,7 +10,7 @@ const LandingPage = () => {
   };
   return (
     <>
-      <div className="w-full relative ">
+      <div className="w-full relative pb-20">
         {/* mission and black banner area */}
         <div className="h-[35vh] p-[3rem] sm:p-[5rem] bg-black opacity-85 text-white px-10 ">
           <div className="max-w-6xl mx-auto">
