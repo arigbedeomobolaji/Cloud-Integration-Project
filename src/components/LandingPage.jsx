@@ -24,7 +24,7 @@ const LandingPage = () => {
           </div>
         </div>
         {/* form and map location is render from this area */}
-        <div className="absolute top-[13rem] max-w-7xl mx-auto left-0 right-0 bg-white rounded-lg pb-[5rem]">
+        <div className="absolute top-[13rem] max-w-7xl mx-auto left-0 right-0 bg-white rounded-lg pb-[12rem]">
           <div className="flex flex-col sm:flex-row justify-between items-center shadow-2xl rounded-lg py-2">
             <Reservation />
             <Map location={location} zoomLevel={17} />
