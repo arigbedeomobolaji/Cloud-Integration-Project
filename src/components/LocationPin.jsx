@@ -7,7 +7,7 @@ const LocationPin = ({ text }) => {
   return (
     <div className="flex items-center w-[180px] text-black">
       {/* location inidcator  icon */}
-      <Icon icon={locationIcon} style={{ fontSize: "10rem" }} />
+      <Icon icon={locationIcon} className="text-[10rem]" />
       {/* location address text */}
       <p className="font-normal sm:font-semibold text-red-500 text-md sm:text-base">
         {text}
