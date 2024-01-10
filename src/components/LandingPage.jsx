@@ -16,7 +16,7 @@ const LandingPage = () => {
           <div className="max-w-6xl mx-auto">
             {/* the mission paragraph text is here */}
             <h1 className="text-xl sm:text-2xl ">Our Mission :</h1>
-            <p className="italic text-lg sm:text-xl py-2">
+            <p className="italic text-base sm:text-xl py-2">
               To democratize acces to quality education and lifelong learning to
               support all generations in Africa and the Middle East in preparing
               for, and successding in, the future of work.
@@ -24,7 +24,7 @@ const LandingPage = () => {
           </div>
         </div>
         {/* form and map location is render from this area */}
-        <div className="absolute top-[13rem] max-w-7xl mx-auto left-0 right-0 bg-white rounded-lg pb-[9rem]">
+        <div className="absolute top-[13rem] max-w-7xl mx-auto left-0 right-0 bg-white rounded-lg pb-[2rem]">
           <div className="flex flex-col sm:flex-row justify-between items-center shadow-2xl rounded-lg py-2">
             <Reservation />
             <Map location={location} zoomLevel={17} />
