@@ -14,7 +14,7 @@ const Map = ({ location, zoomLevel }) => {
         <div className="w-full h-[60vh]">
           <GoogleMapReact
             bootstrapURLKeys={{ key: `${api_key}` }} // inidcate the google api key
-            defaultCenter={location} //  render centeralize my location
+            defaultCenter={location} //  render centeralizee my location
             defaultZoom={zoomLevel} // specifies the zoom lelvel passed in as props
           >
             {/* redner a children component for the longitude & latitude and address */}
